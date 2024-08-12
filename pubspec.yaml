@@ -1,0 +1,110 @@
+name: productive
+description: "Productive Flutter App"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  device_preview: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_intl: ^0.0.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  gap: ^3.0.1
+  get_it: ^7.6.7
+  intl: ^0.18.1
+  keyboard_dismisser: ^3.0.0
+  flutter_bloc: ^8.1.3
+  flutter_slidable: ^3.0.1
+  permission_handler: ^11.3.0
+
+  pinput: any
+  google_mobile_ads: ^4.0.0
+  url_launcher: ^6.2.5
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  geolocator: ^11.0.0
+  yandex_mapkit: ^3.4.0
+  firebase_core: ^2.26.0
+  cloud_firestore: ^4.15.8
+  firebase_auth: ^4.17.7
+  firebase_storage: ^11.6.8
+  equatable: ^2.0.5
+  fl_chart: ^0.66.2
+  syncfusion_flutter_charts: ^24.2.8
+
+  flutter_rounded_date_picker: ^3.0.4
+  shared_preferences: ^2.2.2
+  flutter_img: ^0.1.6+148
+  firebase_messaging: ^14.7.19
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  build_runner: ^2.4.8
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/logo/
+    - assets/create_new_password/
+    - assets/icons/
+    - assets/icons/expenses/
+    - assets/icons/expenses/
+    - assets/icons/create_expense/
+    - assets/icons/create_expense/new_catalog_colors/
+    - assets/icons/create_expense/new_catalog_icon/
+    - assets/icons/calendar/
+    - assets/icons/bnb/
+    - assets/icons/single_category/
+    - assets/icons/forgot_password/
+    - assets/icons/tasks/
+    - assets/icons/tasks/drawer/
+    - assets/images/
+    - assets/icons/expanse/
+    - assets/icons/login/
+    - assets/icons/notes_svg/
+    - assets/icons/create_task/
+    - assets/icons/create_home_items/
+
+flutter_intl:
+  enabled: true
+  class_name: AppLocalization
+  arb-dir: lib/l10n
+  preferred-supported-locales:
+    - en
+  use-deferred-loading: true
+
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Light.ttf
+        - asset: assets/fonts/Barlow-LightItalic.ttf
+        - asset: assets/fonts/Barlow-Thin.ttf
+        - asset: assets/fonts/Barlow-ThinItalic.ttf
+        - asset: assets/fonts/Barlow-Regular.ttf
+        - asset: assets/fonts/Barlow-Italic.ttf
+        - asset: assets/fonts/Barlow-Medium.ttf
+        - asset: assets/fonts/Barlow-MediumItalic.ttf
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+        - asset: assets/fonts/Barlow-SemiBoldItalic.ttf
+        - asset: assets/fonts/Barlow-Bold.ttf
+        - asset: assets/fonts/Barlow-BoldItalic.ttf
+        - asset: assets/fonts/Barlow-ExtraBold.ttf
+        - asset: assets/fonts/Barlow-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Barlow-Black.ttf
+        - asset: assets/fonts/Barlow-BlackItalic.ttf

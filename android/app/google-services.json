@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359618289657",
+    "project_id": "productive-release-test",
+    "storage_bucket": "productive-release-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359618289657:android:43f25068861c482fd4a728",
+        "android_client_info": {
+          "package_name": "org.cdevs.productive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg1LSBT_0HhSx2N9bHvw3qAuX45f6hWf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
